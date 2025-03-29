@@ -1,16 +1,27 @@
-# Generated files by hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Temporary lock file while building
-/.hugo_build.lock
+# dependencies
+/node_modules
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+# next.js
+/.next/
+/out/
 
-# Other
-.DS_Store
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
