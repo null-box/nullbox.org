@@ -1,11 +1,12 @@
-import { Mail, MapPin, Phone } from "lucide-react"
-import { ContactForm } from "@/components/contact-form"
-import { CalBookingWidget } from "@/components/cal-booking-widget"
-import Link from "next/link"
+import { CalBookingWidget } from '@/components/cal-booking-widget'
+import { ContactForm } from '@/components/contact-form'
+import { Mail, MapPin, Phone } from 'lucide-react'
+import Link from 'next/link'
 
 export const metadata = {
-  title: "Contact Us",
-  description: "Get in touch with Nullbox Ltd for consultancy services, technical training, or project inquiries.",
+  title: 'Contact Us',
+  description:
+    'Get in touch with Nullbox Ltd for consultancy services, technical training, or project inquiries.',
 }
 
 export default function ContactPage() {
@@ -16,7 +17,8 @@ export default function ContactPage() {
         <div className="mb-8 pb-4 border-b border-border/30">
           <h1 className="text-lg font-medium mb-2">Contact Us</h1>
           <p className="text-xs text-muted-foreground">
-            Get in touch with us to discuss your project, request a consultation, or learn more about our services.
+            Get in touch with us to discuss your project, request a consultation, or learn more
+            about our services.
           </p>
         </div>
 
@@ -39,7 +41,10 @@ export default function ContactPage() {
             </div>
             <div className="flex items-start">
               <span className="text-primary mr-1.5">•</span>
-              <a href="tel:+442046002203" className="text-xs text-primary hover:underline block mb-1">
+              <a
+                href="tel:+442046002203"
+                className="text-xs text-primary hover:underline block mb-1"
+              >
                 +44 (0) 2046002203
               </a>
             </div>
@@ -59,7 +64,7 @@ export default function ContactPage() {
             <div className="flex items-start">
               <span className="text-primary mr-1.5">•</span>
               <a
-                href="https://www.google.com/maps/place/London,+UK"
+                href="https://www.google.com/maps/place/71-75+Shelton+Street,+Covent+Garden,+London+WC2H+9JQ,+UK"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs text-primary hover:underline block mb-1"
@@ -70,10 +75,10 @@ export default function ContactPage() {
             <div className="flex items-start">
               <span className="text-primary mr-1.5">•</span>
               <span className="text-xs text-muted-foreground">
-                Remote{" "}
+                Remote{' '}
                 <Link href="/services" className="text-primary hover:underline">
                   services
-                </Link>{" "}
+                </Link>{' '}
                 worldwide
               </span>
             </div>
@@ -104,18 +109,19 @@ export default function ContactPage() {
             </div>
             <h2 className="text-sm font-medium mb-3">Schedule a Consultation</h2>
             <p className="text-xs text-muted-foreground mb-3">
-              Reserve a complimentary consultation to discuss your project requirements and technical objectives.
+              Reserve a complimentary consultation to discuss your project requirements and
+              technical objectives.
             </p>
             <CalBookingWidget />
             <p className="text-xs text-muted-foreground mt-4 leading-relaxed">
-              If these times don't suit your schedule, please{" "}
+              If these times don't suit your schedule, please{' '}
               <a href="mailto:contact@nullbox.org" className="text-primary hover:underline">
                 contact us directly
               </a>
               .
               <br />
               <br />
-              For additional information, we also invite you to review our{" "}
+              For additional information, we also invite you to review our{' '}
               <Link href="/faq" className="text-primary hover:underline">
                 Frequently Asked Questions
               </Link>
@@ -128,17 +134,17 @@ export default function ContactPage() {
         <div className="mt-12 pt-8 border-t border-border/30 text-center group transition-transform duration-300 hover:scale-105">
           <h2 className="text-sm font-medium mb-3">Let's Build Something Great Together</h2>
           <p className="text-xs text-muted-foreground max-w-2xl mx-auto">
-            "Every complex system that works evolved from a simple system that worked. The inverse proposition is not
-            true: A complex system designed from scratch never works."
+            "Every complex system that works evolved from a simple system that worked. The inverse
+            proposition is not true: A complex system designed from scratch never works."
             <br />— John Gall
           </p>
           <p className="text-xs text-muted-foreground mt-4 max-w-2xl mx-auto">
-            At Nullbox, we believe that clear communication is the foundation of successful technical projects. Your
-            message today could be the first step toward engineering clarity from complexity.
+            At Nullbox, we believe that clear communication is the foundation of successful
+            technical projects. Your message today could be the first step toward engineering
+            clarity from complexity.
           </p>
         </div>
       </div>
     </div>
   )
 }
-
