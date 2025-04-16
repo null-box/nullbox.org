@@ -16,26 +16,26 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Nullbox Ltd | Engineering Clarity from Complexity",
-    template: "%s | Nullbox Ltd",
+    default: "Null Box Ltd | Engineering Clarity from Complexity",
+    template: "%s | Null Box Ltd",
   },
   description:
     "Premium consultancy offering software engineering, cloud computing architecture, and technical training services.",
   keywords: ["cloud architecture", "software engineering", "DevOps", "technical training", "consultancy"],
   authors: [{ name: "Ioannis Polyzos" }],
-  creator: "Nullbox Ltd",
+  creator: "Null Box Ltd",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://nullbox.org",
-    title: "Nullbox Ltd | Engineering Clarity from Complexity",
+    title: "Null Box Ltd | Engineering Clarity from Complexity",
     description:
       "Premium consultancy offering software engineering, cloud computing architecture, and technical training services.",
-    siteName: "Nullbox Ltd",
+    siteName: "Null Box Ltd",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nullbox Ltd | Engineering Clarity from Complexity",
+    title: "Null Box Ltd | Engineering Clarity from Complexity",
     description:
       "Premium consultancy offering software engineering, cloud computing architecture, and technical training services.",
   },
