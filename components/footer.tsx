@@ -111,7 +111,7 @@ export function Footer() {
 
         <div className="mt-6 pt-4 border-t flex flex-col md:flex-row justify-between items-center gap-2">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Nullbox Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Null Box Ltd. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground flex items-center gap-1">
             <TerminalIcon className="h-3 w-3" />
