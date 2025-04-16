@@ -17,7 +17,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-sm font-medium mb-2">Our Mission</h2>
             <p className="text-xs text-muted-foreground mb-3">
-              At Nullbox, we're on a mission to engineer clarity from complexity. We believe that even the most
+              At Null Box Ltd, we're on a mission to engineer clarity from complexity. We believe that even the most
               intricate technical challenges can be solved with elegant, maintainable solutions.
             </p>
             <p className="text-xs text-muted-foreground mb-3">
@@ -121,7 +121,7 @@ export default function AboutPage() {
         <div className="text-center mb-8">
           <h2 className="text-sm font-medium mb-3">Our Story</h2>
           <p className="text-xs text-muted-foreground mb-4 max-w-2xl mx-auto">
-            Nullbox was founded in 2015 with a simple idea: technical complexity shouldn't be a barrier to business
+            Null Box Ltd was founded in 2015 with a simple idea: technical complexity shouldn't be a barrier to business
             success. After years of seeing organizations struggle with over-engineered solutions and knowledge silos, we
             set out to create a consultancy that combines technical excellence with a focus on simplicity and knowledge
             transfer.
